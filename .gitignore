@@ -1,0 +1,15 @@
+build/
+bin/
+node_modules/
+
+.env
+.env.local
+.env.development.local
+
+.webpack/
+
+
+.DS_Store
+
+.idea/
+.vscode/

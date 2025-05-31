@@ -1,0 +1,13 @@
+@import "./styles/globals.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border outline-none ring-0;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
